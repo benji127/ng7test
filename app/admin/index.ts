@@ -1,2 +1,1 @@
-export interface Index {
-}
+export * from './admin.component';
