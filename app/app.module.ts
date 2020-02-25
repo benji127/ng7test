@@ -18,6 +18,11 @@ import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { FootBarComponent } from './foot-bar/foot-bar.component';
 import { AdminComponent } from './admin/admin.component';
+import { ProductAlertComponent } from './product-alert/product-alert.component';
+import { CartComponent } from './cart/cart.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ShippingComponent } from './shipping/shipping.component';
+import { CartService } from './_services';
 
 @NgModule({
     imports: [
@@ -34,14 +39,20 @@ import { AdminComponent } from './admin/admin.component';
         RegisterComponent,
         ProductListComponent,
         FootBarComponent,
-        AdminComponent
+        AdminComponent,
+        ProductAlertComponent,
+        CartComponent,
+        ProductDetailsComponent,
+        ShippingComponent
     ],
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
         { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
 
         // provider used to create fake backend
-        fakeBackendProvider
+        fakeBackendProvider,
+
+        CartService
     ],
     bootstrap: [AppComponent]
 })
