@@ -5,7 +5,10 @@ import { AdminComponent } from './admin';
 import { LoginComponent } from './login';
 import { AuthGuard } from './_guards';
 import { Role } from './_models';
-import { ProductListComponent } from './product-list';
+import { ProductListComponent } from '/product-list';
+import { ProductDetailsComponent} from '/product-details';
+import { ShippingComponent} from '/shipping';
+import { CartComponent } from  '/cart';
 
 const appRoutes: Routes = [
     {
