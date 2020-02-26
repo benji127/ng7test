@@ -18,6 +18,7 @@ import { FootBarComponent } from './foot-bar/foot-bar.component';
 import { AdminComponent } from './admin/admin.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ProductAlertsComponent} from './product-alerts/product-alerts.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { CartService } from './_services';
 
@@ -35,6 +36,7 @@ import { CartService } from './_services';
         LoginComponent,
         RegisterComponent,
         ProductListComponent,
+        ProductAlertsComponent,
         FootBarComponent,
         AdminComponent,
         CartComponent,
