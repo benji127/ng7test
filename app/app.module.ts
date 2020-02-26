@@ -18,7 +18,7 @@ import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { FootBarComponent } from './foot-bar/foot-bar.component';
 import { AdminComponent } from './admin/admin.component';
-import { ProductAlertComponent } from './product-alert/product-alert.component';
+import { ProductAlertsComponent } from './product-alerts/product-alert.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ShippingComponent } from './shipping/shipping.component';
