@@ -17,10 +17,10 @@ export class CartComponent implements OnInit {
     
   ) {
     this.checkoutForm = this.formBuidlder.group({
-      name: '',
-      surname: '',
-      address: '',
-      ccnum:'',
+      name: ['', Validators.required],
+      surname: ['', Validators.required],
+      address: ['', Validators.required],
+      ccnum:['', Validators.required],
     });
    }
 
